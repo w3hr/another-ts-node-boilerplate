@@ -9,6 +9,8 @@
         "sourceMap": true,
         "resolveJsonModule": true,
         "emitDeclarationOnly": false,
+        "skipLibCheck": true,
+        "incremental": true
     },
     "include": [
         "src"
@@ -16,7 +18,5 @@
     "exclude": [
         "node_modules",
         "**/__tests__/*"
-    ],
-    "skipLibCheck": true,
-    "incremental": true
+    ]
 }
